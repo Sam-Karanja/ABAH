@@ -43,6 +43,18 @@ ul{
     padding: 4%;
   
   }
+  img{
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+  }
+
+  .lifestyle ,
+  .entertainment,
+  .fashion{
+    border-radius: 30px;
+    /* border: 2px solid black; */
+    box-shadow: 5px 5px 5px 5px;
+  }
   
   .lifestyle p,
   .entertainment p,
@@ -50,6 +62,12 @@ ul{
       font-size: larger;
     padding: 10%;
     text-align: center;
+  }
+
+  .oneee{
+    border-radius: 30px;
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 2px 2px;
   }
   
   .section {
@@ -73,13 +91,16 @@ ul{
     justify-content: space-around;
     padding: 3%;
     display: none;
+    margin-top: 10px;
     padding-top: 30px;
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom:3%;
     /* background-color: aqua; */
     height: 600px;
-    /* margin: 0, 200, 100, 200; */
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px;
 
   }
   
