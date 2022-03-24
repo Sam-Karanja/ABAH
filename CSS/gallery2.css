@@ -5,6 +5,25 @@
     box-sizing: border-box;
   }
   
+  .nav{
+      display: flex;justify-content: space-around;
+      background-color: aqua;
+
+  }
+
+  .logo{
+      float: left;
+  }
+
+ul{
+      text-decoration:  none;
+      text-align: center;
+      list-style: none;
+      display: flex;
+      word-spacing: 10px;
+      font-size: larger;
+      font-weight: 500;
+  }
   
   .title {
     background-color: rgb(170, 168, 168);
